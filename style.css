@@ -1,0 +1,229 @@
+body
+{
+	background-image: url(./Assets/images/rockywall.png);	
+}
+
+a
+{
+	text-decoration: none;
+}
+.header
+{
+	display:flex;
+	justify-content:space-around;
+	background-color:white;
+	height:70px;
+	width:100%;
+	border-color:silver;
+	border-bottom:5px;
+}
+
+.name
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:15%;
+	color:white;
+	background-color: #4aaaa5;
+	font-size: 36px;
+	font-family: arial;
+	
+}
+a
+{
+	color:silver;
+}
+
+.nav
+{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	width:10%;
+	margin-left:550px;
+	color:white;
+	font-family: arial;
+
+}
+
+
+.section
+{
+	width:980px;
+	height:500px;
+	background-color:white;
+	margin-top:100px;
+	margin-bottom:.300px;
+	margin-left: 225px;
+	padding:20px;
+	overflow:auto;
+	overflow-y: hidden; 
+	overflow-x: hidden; 
+}
+
+.about
+{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: arial;
+	color:#4aaaa5;
+	top:-50px;
+	padding: 20px 0px;
+    border-bottom-style: solid;    
+    border-bottom-color: silver;
+    border-bottom-width: 3px;
+    margin-bottom:20px;
+}
+
+.profilePic
+{
+	position:relative;
+	float:left;
+	padding:10px;
+	border-style: ridge;
+	border-color:silver;
+	border-width: 3px;
+	margin-right:10px;	
+}
+.portfolioPics
+{
+	float:both;
+	overflow:auto;
+}
+
+.leftPics
+{
+	display:flex;
+	justify-content: space-around;
+}	
+.rightPics
+{
+	display:flex;
+	justify-content: space-around;
+}
+
+.bio
+{
+	position:relative;
+	color:#777777;
+	font-size: 20px;
+	font-family: arial;
+	margin-bottom:30px;
+}
+
+.aside
+{
+	float:right;
+	width:350px;
+	height:200px;
+	background-color:white;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-right:125px;
+	padding:30px;
+	right:50px;
+	z-index: 2;
+	display:grid;
+	grid-template-rows:1fr 1fr;
+	
+}
+.logos
+{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.connect
+{
+	
+	text-align:center;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: arial;
+	color:#4aaaa5;
+	padding: 20px 0px;
+    border-bottom-style: solid;    
+    border-bottom-color: silver;
+    border-bottom-width: 3px;
+    margin-bottom:25px;
+}
+
+.contact
+{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: arial;
+	color:#4aaaa5;
+	top:-50px;
+	padding: 20px 0px;
+    border-bottom-style: solid;    
+    border-bottom-color: silver;
+    border-bottom-width: 3px;
+    margin-bottom:10px;
+}
+.contactMe
+{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: arial;
+	color:#4aaaa5;
+}
+input[type=text] 
+{
+    border: 2px solid silver;
+    border-radius: 4px;
+    padding:5px;
+}
+input[type=submit]
+{
+	border: 2px solid silver;
+    border-radius: 4px;
+    color:#777777;
+}
+textarea[name=message]
+{
+	border: 2px solid silver;
+    border-radius: 4px;
+    padding:5px;
+}
+
+.portfolio
+{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: arial;
+	color:#4aaaa5;
+	top:-50px;
+	padding: 20px 0px;
+    border-bottom-style: solid;    
+    border-bottom-color: silver;
+    border-bottom-width: 3px;
+    margin-bottom:20px;
+}
+
+
+.footer
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: silver;
+  text-align: center;
+  vertical-align: bottom;
+  height:30px;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-color: #4aaaa5;
+ } 
+
+.copyright
+{
+	vertical-align: middle;
+	text-align:center;
+	color:#777777;
+
+}
+
